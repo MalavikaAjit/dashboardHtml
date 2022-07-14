@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard - Sidebar</title>
+    <!----CSS link----->
+    <link rel="stylesheet" href="assets/css/style.css"> 
+</head>
+<body>
+  <div ></div>
+  <div class="nav">
+
+		<div class="search-container">
+			<form class="search-bar">
+				<input type="text" name="search" placeholder="Search..">
+				<button type="submit"><ion-icon name="search-outline"></ion-icon></button>
+			</form>
+		</div>
+   <div class="username">
+    <a href="#">
+    <span><img class="usericon" src="./assets/img/imgfe.jpg" alt=""></span> 
+      <span class="title">Jane Doe</span>
+    </a>
+   </div>
+	</div>
+  <div class="navigation">
+    <ul>
+      <li class="nav-item mr-auto">
+        <a href="#" target="_self">
+            <span class="brand-logo">
+                <img class="brand-img" src="assets/img/cmart-logo.png" alt="logo" class="">
+            </span>
+        </a>
+      </li>
+      <li class="list ">
+        <b></b>
+        <b></b>
+        <a href="#">
+          <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+          <span class="title">Home</span>
+        </a>
+      </li>
+      <li class="list active">
+        <b></b>
+        <b></b>
+        <a href="#">
+          <span class="icon"><ion-icon name="grid-outline"></ion-icon></span>
+          <span class="title">Dashboard</span>
+        </a>
+      </li>
+      <li class="list">
+        <b></b>
+        <b></b>
+        <a href="#">
+          <span class="icon"><ion-icon name="people-outline"></ion-icon></span>
+          <span class="title">Customers</span>
+        </a>
+      </li>
+      <li class="list">
+        <b></b>
+        <b></b>
+        <a href="#">
+          <span class="icon"><ion-icon name="bar-chart-outline"></ion-icon></span>
+          <span class="title">Analytics</span>
+        </a>
+      </li>      
+      <li class="list">
+        <b></b>
+        <b></b>
+        <a href="#">
+          <span class="icon"><ion-icon name="settings-outline"></ion-icon></span>
+          <span class="title">Settings</span>
+        </a>
+      </li>
+      <li class="list">
+        <b></b>
+        <b></b>
+        <a href="#">
+          <span class="icon"><ion-icon name="log-out-outline"></ion-icon></span>
+          <span class="title">Sign Out</span>
+        </a>
+      </li>
+      <li class="info-link active">
+        <b></b>
+        <b></b>
+        <a href="https://bipp.io/platform/embedded-analytics/">
+          
+          <span class="info-title">To know more about bipp's Embedded Analytics, <br> click here.</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="dashboard">
+    <div id='container'></div>
+  </div>
+  
+  <!----Font Icon---->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <!---Script File---->
+  <script src="assets/js/js.js"></script>
+</body>
+</html>
